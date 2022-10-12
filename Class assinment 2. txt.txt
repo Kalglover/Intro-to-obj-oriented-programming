@@ -1,0 +1,17 @@
+﻿class polygon {
+   public void render() {
+  }
+}
+
+
+class Square extends polygon {
+    public void render() {
+      System.out.println("Rendering square...");
+    }
+  }
+class Main {
+  public static void main(String[] args) {
+      Square s1 = new Square();
+      s1.render();
+  }
+}
