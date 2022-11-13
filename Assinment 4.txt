@@ -1,0 +1,13 @@
+﻿public class Main {
+    public static void main(String[] args) {
+        double result = division(10);
+        System.out.printf("%f%n",result);
+    }
+    public static double division(double k) {
+        if (k > 0) {
+            return k /= division(k - 1);
+            } else {
+                return 0;
+            }
+            }
+    }
