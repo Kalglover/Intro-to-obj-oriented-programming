@@ -1,0 +1,57 @@
+﻿class Main {
+	
+
+	
+
+	 public static void main(String[] args) {
+	
+
+	   Square s1 = new Square();
+	
+
+	   1st.render();
+	
+
+	 }
+	
+
+	}
+	
+
+	
+
+
+
+	
+
+	class Polygon {
+	
+
+	 public void render() {
+	
+
+	 }
+	
+
+	}
+	
+
+	
+
+
+
+	
+
+	class Square extends Polygon {
+	
+
+	 public void render() {
+	
+
+	   System.out.println("This is a Square");
+	
+
+	 }
+	
+
+	}
