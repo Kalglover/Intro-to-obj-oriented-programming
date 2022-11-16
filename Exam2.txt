@@ -1,0 +1,27 @@
+﻿import java.util.Scanner;
+public class Main{
+     public static void main(String[] args) {
+       
+        Scanner k = new Scanner(System.in);
+
+
+        System.out.print("Enter a Number Please: ");
+        int num = k.nextInt();
+        System.out.print("\n");
+        Multiply(num);
+  }
+  public static void Multiply(int k)
+    {
+        System.out.print(k+"*");
+        if(k<=2)
+        {
+            System.out.print("1");
+            return;
+        }
+        else
+        {
+            Multiply(k-1);
+            
+        }
+    }
+}
